@@ -1,0 +1,52 @@
+body {
+  height: 90vh;
+  padding: 10px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.cards {
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  max-width: 95vw;
+  overflow-x: hidden;
+  padding: 1rem;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex: 1 1 250px;
+    max-width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+}
+.butt {
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+
+  button {
+    width: 7vw;
+    height: 4vh;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.p {
+  margin-bottom: 20px;
+}

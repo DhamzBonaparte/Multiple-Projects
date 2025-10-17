@@ -1,0 +1,17 @@
+// * {
+//   background-color: beige;
+// }
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  color: #fff700;
+}
+
+.inactive {
+  color: #000000;
+}

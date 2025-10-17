@@ -1,0 +1,51 @@
+.showww {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin: 30px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.midd {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+
+  button {
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    width: 7vw;
+    border-radius: 8px;
+    background-color: bisque;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.wid{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

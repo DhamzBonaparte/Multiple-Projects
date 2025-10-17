@@ -1,0 +1,38 @@
+.middd{
+    display: flex;
+
+    .sidebarr{
+        left:0;
+        width: 13vw;
+        background-color: bisque;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            li{
+                margin: 20px;
+
+                button{
+                    height: 5vh;
+                    width: 7vw;
+                    border:none;
+                    border-radius: 5px;
+                    background-color: black;
+                    color:white;
+
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .divs{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+}

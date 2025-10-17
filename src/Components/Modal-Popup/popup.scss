@@ -1,0 +1,39 @@
+.mathi-active {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding: 20px;
+  transition: 1s ease-in;
+
+  button {
+    font-family: cursive;
+    height: 5vh;
+    width: 10vw;
+    font-weight: 700;
+    font-size: 16px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.mathi {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding: 20px;
+
+  button {
+    font-family: cursive;
+    height: 5vh;
+    width: 10vw;
+    font-weight: 700;
+    font-size: 16px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

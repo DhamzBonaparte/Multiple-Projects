@@ -1,0 +1,42 @@
+// body {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   height: 90vh;
+//   font-family: Georgia, "Times New Roman", Times, serif;
+//   h1 {
+//     margin-bottom: 20px;
+//   }
+// }
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .image {
+    height: 60vh;
+    width: 60vw;
+    
+  }
+
+  .icon {
+    height: 9vh;
+    width: 8vw;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+.navigate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    .icon{
+        text-align: center;
+    }
+}
